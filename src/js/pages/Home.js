@@ -35,9 +35,9 @@ const Home = ({ topServices, image, intl }) => {
         <p>
           <FormattedMessage
             id="Home.Secondarycontent.bodytext"
-            defaultMessage="Alpha.austin.gov is a new website and a work in progress. For the full City of Austin website, visit  {citySiteLink}. Learn more about the new website at {projectsSiteLink}."
+            defaultMessage="alpha.austin.gov is a cool website and a work in progress. For the full City of Austin website, visit  {citySiteLink}. Learn more about the new website at {projectsSiteLink}."
             values = {{
-              citySiteLink: <ExternalLink to="https://austintexas.gov">austintexas.gov</ExternalLink>,
+              citySiteLink: <ExternalLink to="https://yahoo.com">yahoo.com</ExternalLink>,
               projectsSiteLink: <ExternalLink to="https://bit.ly/atx-digital-services">projects.austintexas.io</ExternalLink>
             }}
           />
